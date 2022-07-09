@@ -1,1 +1,57 @@
-
+ <style>
+      img {
+        width: 200px;
+        display: block;
+        margin-left: 600px;
+        margin-right: 600px;
+        margin-top: 100px;
+        border-radius: 50px;
+        margin-right: 10px;
+      }
+      .username {
+        font-weight: bold;
+        display: block;
+        margin-left: 660px;
+        margin-right: 600px;
+        margin-top: 50px;
+      }
+      .info {
+        margin-left: 640px;
+        margin-right: 600px;
+        background-color: rgb(20, 82, 238);
+        color: white;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        transition: opacity 0;
+      }
+      .description {
+        margin-left: 650px;
+        margin-right: 600px;
+      }
+      .video-title {
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: 20px;
+        line-height: 26px;
+      }
+      .modify {
+        font-weight: bold;
+        cursor: pointer;
+        color: black;
+      }
+      .prof {
+        margin-left: 640px;
+        margin-right: 600px;
+        color: rgb(32, 31, 31);
+      }
+      .info:hover {
+        opacity: 0.8;
+      }
+      .modify:hover {
+        text-decoration: underline;
+      }
+    </style>
